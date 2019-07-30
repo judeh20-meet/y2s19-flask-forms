@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Add a Student</title>
@@ -8,6 +8,9 @@
     <h1>Add a Student</h1>
     <form method="post">\
         <br>
+        <input type="text" name="student_name" placeholder="First Name?">
+        <input type="text" name="student_year" placeholder="Which Year?">
+        <input type="text" name="finished_lab" placeholder="Did You Finish Lab?">
         <input type="submit" value="Submit">
     </form>
     <p><a href="{{url_for('home')}}">Home</a></p>
